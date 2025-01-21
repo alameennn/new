@@ -1,0 +1,52 @@
+.add-food-container{
+  max-width: 600px;
+  margin: 20px auto;
+  background:#fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.add-food-container h1{
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-food-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+.form-group label{
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button{
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover{
+  background-color: #0056b3;
+}
